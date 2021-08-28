@@ -1,0 +1,7 @@
+{
+  "name": "esac-console-api-tutorial",
+  "require": {
+    "maniaplanet/dedicated-server-api": "^5.0",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}

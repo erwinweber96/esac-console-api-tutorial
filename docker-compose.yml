@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  controller:
+    network_mode: host
+    image: controller
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./:/usr/src/app
